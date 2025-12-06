@@ -1,0 +1,12 @@
+{
+  "name": "day-1-multimedia-form",
+  "version": "1.0.0",
+  "description": "Multimedia form project",
+  "main": "runner.js",
+  "scripts": {
+    "start": "node runner.js"
+  },
+  "dependencies": {
+    "jsdom": "^23.0.1"
+  }
+}

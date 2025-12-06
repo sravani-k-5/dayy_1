@@ -29,9 +29,3 @@ video.addEventListener("play", () => {
 if (window.innerWidth < 768) {
     console.log("[Layout] Columns collapsed on mobile breakpoint");
 }
-
-
-const sudio=document.getElementById("audioplayer");
-sudio.addEventListener("play",()=>{
-    console.log("[video]");
-})
