@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Form Page</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Background Image (Position + Z-index) -->
+  <div class="bg-image"></div>
+
+  <header class="header">
+    <h1>Responsive Multimedia Form Page</h1>
+  </header>
+
+  <main class="container">
+
+    <!-- ▶ FORM SECTION -->
+    <section class="form-section">
+
+      <h2>Contact Form</h2>
+
+      <form id="contactForm">
+        
+        <label>Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+
+        <label>Gender:</label>
+        <div class="gender-box">
+          <label><input type="radio" name="gender" value="Male" required> Male</label>
+          <label><input type="radio" name="gender" value="Female"> Female</label>
+        </div>
+
+        <label>
+          <input type="checkbox" id="terms" required>
+          I agree to terms
+        </label>
+
+        <label>Message:</label>
+        <textarea id="message" rows="3" placeholder="Type message"></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- ▶ MULTIMEDIA SECTION -->
+    <section class="media-section">
+
+      <!-- iFrame -->
+      <div class="iframe-box">
+        <h2>Embedded iFrame</h2>
+        <iframe src="https://docs.python.org/3/tutorial/index.html" id="demoFrame" loading="lazy"></iframe>
+      </div>
+
+      <!-- Audio -->
+      <div>
+        <h2>Audio Player</h2>
+        <audio id="audioPlayer" controls>
+          <source src="assets/audio/relaxing-river-sound(chosic.com).mp3" type="audio/mpeg">
+          Your browser does not support audio.
+        </audio>
+      </div>
+
+      <!-- Video -->
+      <div>
+        <h2>Video Player</h2>
+        <video id="videoPlayer" controls width="100%">
+          <source src="assets/video/video.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-image"></div>
+    <header h1="head">
+        <h1>hello</h1>
+    </header>
+    <main class="container">
+        <section class="form-section">
+            <form class="form">
+                <label>name:</label>
+                <input type="text" placeholder="enter the name" id="name">
+                <label>email:</label>
+                <input type="email" placeholder="enter tha email" id="email">
+                <label>password:</label>
+                <input type="password" placeholder="enter tha password" id="password">
+            </form>
+            <div class="emded">
+                <iframe src="https://youtu.be/gNuSUjzcJ7I?si=kcUqajSTLqmEFQ_c"></iframe>
+            </div>
+            <div>
+                <h1>audio</h1>
+                <audio controls="mute">
+                    <source src="">
+                </audio>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
